@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Website Assignment (ECX)</title>
+</head>
+<body>
+
+    <h1>Moyosore Olojede</h1>
+    <p>Hello! I'm a Systems Engineering student interested in programming, electronics, and tech innovation.</p>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Programming</li>
+        <li>Reading tech blogs</li>
+        <li>Building circuits</li>
+        <li>Playing chess</li>
+    </ul>
+
+    <br>
+
+    <h2>Photo</h2>
+    <img src="image.png" alt="Proverbs 9:12" width="300">
+
+    <br><br>
+
+    <h2>Audio</h2>
+    <p>
+        Seyi Vibex - Fuji Moto 
+        <br>
+        <i>Audio gotten from Seyi Vibez's Youtube Channel</i>
+    </p>
+    <audio controls>
+        <source src="Seyi Vibez-FUJI MOTO audio.mp3" type="audio/mp3">
+    </audio>
+
+    <br>
+
+    <h2>Video</h2>
+    <p>
+        Lil Wayne Imitation Vines by Jerry Purpdrank
+        <br>
+        <i>Video gotten from Dafuq Vines on Youtube</i>
+    </p>
+
+    <br><br>
+
+    <h3><i>On Youtube</i></h3>
+    
+    <iframe 
+        width="320" 
+        height="240" 
+        src="https://www.youtube.com/embed/q1j9ORLKILs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <br><br>
+
+    <h3><i>Downloaded Video</i></h3>
+    <video width="320" height="240" controls>
+        <source src="Lil Wayne Vines.mp4" type="video/mp4">
+    </video>
+
+    <br>
+
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
